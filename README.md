@@ -6,7 +6,7 @@ This repo contains the code and experiments that are implemented to contribute i
 ## Reference papers
 #### Working paper:
 
-#### Challenge details paper
+#### Challenge details paper:
   
 BibTeX:  
 @article{MediAI2021,
