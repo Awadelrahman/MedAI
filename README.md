@@ -37,6 +37,7 @@ BibTeX:
 # Evaluation
 
 <img align="center" width="1000" height="100" src="figures/testsocre.png">
+<img align="center" src="figures/testsocre.png">
 
 ![score](figures/testsocre.png)
 
