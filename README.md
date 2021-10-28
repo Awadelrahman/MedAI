@@ -30,10 +30,9 @@ BibTeX:
     
 
 # Transfer Learning
-![polyp1](figures/1afe16bd-7aef-44e0-9175-850aeffbb82b.jpg)
-![polyp2](figures/2b6f382c-259f-486f-bb21-0f1b38c93c3d.jpg)
-![inst1](figures/0f17e181-13dc-44f9-ae84-ccfbc1dcff6f.jpg)
-![inst2](figures/1e20276f-b5df-48f8-9c57-4dcf549c4469.jpg)
+![polyp](figures/pol1.jpg)
+![inst](figures/inst1.jpg)
+
 
 # Evaluation
 
