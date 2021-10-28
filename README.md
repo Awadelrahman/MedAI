@@ -1,18 +1,40 @@
-# MedAI
+# MedAI: Transparency in Medical Image Segmentation
 
-# What is GAN-NILM
-GAN-NILM tries to perform Non-Intrusive Load Monitoring using Generative Adversarial Networks.
-That is, in plain language, a model that takes only a building total measurement and tries to tell which appliances are On/Off at every time step.  
+# What is this repo
+This repo contains the code and experiments that are implemented to contribute in MedAI Cahllenge: Transparency in Medical Image Segmentation to automate medical image segmentation while preserve transparency. In the paper below we proposed generative adversarial network-based models to segment both polyps and instruments in endoscopy images. We also provide explanations for the predictions using a layer-wise relevance propagation approach.  
 
-The complete model and results is discussed in our paper:
-[A. M. A. Ahmed, Y. Zhang and F. Eliassen, "Generative Adversarial Networks and Transfer Learning for Non-Intrusive Load Monitoring in Smart Grids," 2020 IEEE SmartGridComm](https://ieeexplore.ieee.org/document/9302933)
+# Reference papers
+## Woriking paper:
 
-A summary can be found in this video presentaion:
-https://www.youtube.com/watch?v=Z_K5YEuSCOs&t=4s  
+## Challenge details paper
+  
+BibTeX:  
+@article{MediAI2021,
+    title = {{MedAI: Transparency in Medical Image Segmentation}},
+    author = {
+        Hicks, Steven and
+        Jha, Debesh and
+        Thambawita, Vajira and
+        Riegler, Michael and
+        Halvorsen, P{\aa}l and
+        Singstad, Bj{\o}rn-Jostein and
+        Gaur, Sachin and
+        Pettersen, Klas and
+        Goodwin, Morten and
+        Parasa, Sravanthi and
+        de Lange, Thomas
+    },
+    journal = {Nordic Machine Intelligence},   
+    year = {2021},
+    doi = {10.5617/nmi.9140}
+    
+
+  
+
+# Results
 
 ![nilm](figures/NILM.png)
 
-# Content  
 The repository consists of ipynb files of the experiment already run. It still shows the outputs that were not deleted to give insigts about the results.  
 
 # Model 1
@@ -20,35 +42,13 @@ The repository consists of ipynb files of the experiment already run. It still s
 ![nilm](figures/GANNILM.png)
 
 # Transfer Learning
-![nilm](figures/tl.png)
-
-# Model 2 
-
-![nilm](figures/trganilm.png)
+![polyp1](figures/1afe16bd-7aef-44e0-9175-850aeffbb82b.jpg)
+![polyp2](figures/2b6f382c-259f-486f-bb21-0f1b38c93c3d.jpg)
+![inst1](figures/0f17e181-13dc-44f9-ae84-ccfbc1dcff6f.jpg)
+![inst2](figures/1e20276f-b5df-48f8-9c57-4dcf549c4469.jpg)
 
 # Evaluation
 
-![nilm](figures/GANNILMeval.png)
 
-# Dataset  
-Datasets used can be found:  
-1. REFIT: https://www.refitsmarthomes.org/datasets/  
-2. UKDALE: https://jack-kelly.com/data/  
-3. REDD: http://redd.csail.mit.edu/  
+![score](figures/testsocre.png)
 
-
-# Citation  
-Please cite:  
-A. M. A. Ahmed, Y. Zhang and F. Eliassen, "Generative Adversarial Networks and Transfer Learning for Non-Intrusive Load Monitoring in Smart Grids," 2020 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), Tempe, AZ, USA, 2020, pp. 1-7, doi: 10.1109/SmartGridComm47815.2020.9302933.
-
-BibTeX:  
-@INPROCEEDINGS{9302933,  
-  author={A. M. A. {Ahmed} and Y. {Zhang} and F. {Eliassen}},    
-  booktitle={2020 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)},    
-  title={Generative Adversarial Networks and Transfer Learning for Non-Intrusive Load Monitoring in Smart Grids},    
-  year={2020},    
-  volume={},  
-  number={},    
-  pages={1-7},    
-  doi={10.1109/SmartGridComm47815.2020.9302933}}
-  
