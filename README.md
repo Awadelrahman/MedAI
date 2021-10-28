@@ -28,6 +28,8 @@ BibTeX:
     year = {2021},
     doi = {10.5617/nmi.9140}
     
+## Model
+![model](figures/model.jpg)
 
 ## Sample Results
 
