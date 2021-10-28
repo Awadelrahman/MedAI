@@ -1,9 +1,9 @@
 # MedAI: Transparency in Medical Image Segmentation
 
-# What is this repo
+## What is this repo
 This repo contains the code and experiments that are implemented to contribute in MedAI Cahllenge: Transparency in Medical Image Segmentation to automate medical image segmentation while preserve transparency. In the paper below we proposed generative adversarial network-based models to segment both polyps and instruments in endoscopy images. We also provide explanations for the predictions using a layer-wise relevance propagation approach.  
 
-# Reference papers
+## Reference papers
 #### Working paper:
 
 #### Challenge details paper
@@ -29,18 +29,16 @@ BibTeX:
     doi = {10.5617/nmi.9140}
     
 
-# Sample Results
+## Sample Results
 
-## Polyp secmentation task sample
+### Polyp secmentation task sample
 
 ![polyp](figures/pol1.jpg)
 
-## Instrument secmentation task sample
+### Instrument secmentation task sample
 
 ![inst](figures/inst1.jpg)
 
-# Evaluation
+## Evaluation
 
 <img align="centre" src="figures/testsocre.png">
-
-
