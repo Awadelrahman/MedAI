@@ -29,18 +29,6 @@ BibTeX:
     doi = {10.5617/nmi.9140}
     
 
-  
-
-# Results
-
-![nilm](figures/NILM.png)
-
-The repository consists of ipynb files of the experiment already run. It still shows the outputs that were not deleted to give insigts about the results.  
-
-# Model 1
-
-![nilm](figures/GANNILM.png)
-
 # Transfer Learning
 ![polyp1](figures/1afe16bd-7aef-44e0-9175-850aeffbb82b.jpg)
 ![polyp2](figures/2b6f382c-259f-486f-bb21-0f1b38c93c3d.jpg)
