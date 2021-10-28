@@ -29,7 +29,7 @@ BibTeX:
     doi = {10.5617/nmi.9140}
     
 ## Model
-![model](figures/model.jpg)
+![model](figures/model.png)
 
 ## Sample Results
 
