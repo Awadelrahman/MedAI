@@ -29,10 +29,15 @@ BibTeX:
     doi = {10.5617/nmi.9140}
     
 
-# Transfer Learning
-![polyp](figures/pol1.jpg)
-![inst](figures/inst1.jpg)
+# Sample Results
 
+## Polyp secmentation task sample
+
+![polyp](figures/pol1.jpg)
+
+## Instrument secmentation task sample
+
+![inst](figures/inst1.jpg)
 
 # Evaluation
 
