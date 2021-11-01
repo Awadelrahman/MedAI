@@ -34,7 +34,7 @@ BibTeX:
     
 ## Model
 
-![test image size]<img src="figures/model.png" width="550" height="300">
+ <img src="figures/model.png" width="550" height="300">
 
 ## Sample Results
 
