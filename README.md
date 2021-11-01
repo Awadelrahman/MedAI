@@ -5,6 +5,10 @@ This repo contains the code and experiments that are implemented to contribute i
 
 ## Reference papers
 #### Working paper:
+Explainable Medical Image Segmentation via Generative Adversarial Networks and Layer-wise Relevance Propagation, Awadelrahman Ahmed, Leen Ali, Nordic Machine Intelligence.
+https://journals.uio.no/NMI/article/view/9126
+
+
 
 #### Challenge details paper:
   
@@ -29,6 +33,7 @@ BibTeX:
     doi = {10.5617/nmi.9140}
     
 ## Model
+
 ![test image size]<img src="figures/model.png" width="550" height="300">
 
 ## Sample Results
